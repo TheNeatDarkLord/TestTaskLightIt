@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Search Track Engine</title>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-xs-12 text-center">
+  					<div class="box">
+  						<div class="searchh animated bounceInDown">
+							 <input type="search" id="search" placeholder="Введите название трека или группы" />
+							 <button id="button" class="icon"><i class="fa fa-search"></i></button>
+					 	</div>
+				    </div>
+			</div>
+			<div class="col-md-12 text-center" id="wrong">
+				<h2>К сожалению, не удалось ничего найти по Вашему запросу, попробуйте поискать что-то другое :)</h2>
+			</div>
+			<div class="col-md-12 text-center" id="wrong2">
+				<h2>Нужно ввести название трека или группы в поле поиска!</h2>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section id="main">
+	<div class="container" id="params">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-2 col-xs-3">Artist</div>
+			<div class="col-md-2 col-xs-3">Track</div>
+			<div class="col-md-2 col-xs-3">Collection</div>
+			<div class="col-md-2 col-xs-3">Genre</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<div class="container" id="toap">
+	</div>
+</section>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/npm.js"></script>
+<script src="js/my.js"></script>
+</body>
+</html>
